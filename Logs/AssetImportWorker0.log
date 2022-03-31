@@ -1,0 +1,541 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 32682 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60024
+Successfully changed project path to: C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
+C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6700 XT (ID=0x73df)
+    Vendor:   
+    VRAM:     12243 MB
+    Driver:   30.0.14011.2006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002892 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 30.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.302 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1892 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2324.
+Total: 2.449200 ms (FindLiveObjects: 0.206700 ms CreateObjectMapping: 0.044100 ms MarkObjects: 2.113400 ms  DeleteObjects: 0.083600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4771e0c85eabab98beb05e1c414f76c2') in 0.068276 seconds
+  Import took 0.071123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.924431 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a990ab79a7c7af1b119de0f70a79285') in 0.007626 seconds
+  Import took 0.010596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.225910 seconds.
+  path: Assets/Textures
+  artifactKey: Guid(d0d856632a989d745964ad407b80517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures using Guid(d0d856632a989d745964ad407b80517c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00427e9f4ca3711fca6e18c046603f8') in 0.019084 seconds
+  Import took 0.022047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.692203 seconds.
+  path: Assets/Textures/Shadow.mat
+  artifactKey: Guid(af46ae62749a0004595eba40eba8dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.mat using Guid(af46ae62749a0004595eba40eba8dab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43141ab586e9ff76bd8dbf5e96410d5c') in 0.056197 seconds
+  Import took 0.059315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.456574 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad319b9f29ee568e2fcb234a6f62d230') in 0.017083 seconds
+  Import took 0.020283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.561963 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6abc5b9a36a48ec5a72aaec035830b3') in 0.010708 seconds
+  Import took 0.013774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.981236 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3158d4999190a7a9cb3c6d103f1ca4e') in 0.007066 seconds
+  Import took 0.010072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.517606 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc76e3e23d50ff5110329688751c0e54') in 0.007138 seconds
+  Import took 0.010155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.478309 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57def59ffc2555b88b6a7d63e65bbd54') in 0.007084 seconds
+  Import took 0.010417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.304041 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55dc216b32210f0c53f849edb332769') in 0.007571 seconds
+  Import took 0.010752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.968331 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c9a3180c2ef3da668221afba6df95b') in 0.006554 seconds
+  Import took 0.009570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.272348 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59c0b75a82a5e2b9adf168108a56eb5a') in 0.008949 seconds
+  Import took 0.012150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.020058 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288f4bed44c9c6eebb3020ed656f90e8') in 0.012971 seconds
+  Import took 0.016360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.239889 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '304ddb1a9191c69de3f2a0a6e03a784f') in 0.007104 seconds
+  Import took 0.010088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.711380 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806dcef05a0b777192bbd99e9cf533e6') in 0.006791 seconds
+  Import took 0.009841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.577890 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf55672630e0356a51b85d819da19b3') in 0.007677 seconds
+  Import took 0.010957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.312451 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b68e688319c611eacef263b2c872be') in 0.008285 seconds
+  Import took 0.011228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 490.355752 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0dba02f1fc7866cb9dc09b524a35b2') in 0.023864 seconds
+  Import took 0.027239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.922853 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121e1bff6ad85264c655a995baed2e5a') in 0.007881 seconds
+  Import took 0.010818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 153.281280 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362d7accbf80deb0061540ccdad83113') in 0.008176 seconds
+  Import took 0.011409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.317294 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a355936a4dac59ffc7acf41402de133e') in 0.007557 seconds
+  Import took 0.010790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.896609 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd6c60db5694a5406e7079bc2445f6b') in 0.008683 seconds
+  Import took 0.011870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.761838 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb40adf87eeaa8d51ec07988734b1e3') in 0.009081 seconds
+  Import took 0.012217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.718013 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2ab011fae4ed52bf96cf5ad51ae093b') in 0.008282 seconds
+  Import took 0.011455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 282.955905 seconds.
+  path: Assets/Scripts/SpiderTank_Walk.cs
+  artifactKey: Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiderTank_Walk.cs using Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c77e07967453a860f8a9e403ca1a9dd') in 0.023387 seconds
+  Import took 0.026695 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006235 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.935 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.8 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2371.
+Total: 2.863200 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.040900 ms MarkObjects: 2.521000 ms  DeleteObjects: 0.083700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.300031 seconds.
+  path: Assets/Scripts/SpiderTank_Walk.cs
+  artifactKey: Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiderTank_Walk.cs using Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6cd4959c9dcbe6e2c76489728bf546') in 0.031272 seconds
+  Import took 0.034303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.611123 seconds.
+  path: Assets/Scripts/SpiderTank_Walk.cs
+  artifactKey: Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiderTank_Walk.cs using Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6cd4959c9dcbe6e2c76489728bf546') in 0.003687 seconds
+  Import took 0.006632 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007368 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.912 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 92.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2374.
+Total: 2.358500 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.038000 ms MarkObjects: 2.037700 ms  DeleteObjects: 0.066000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.682253 seconds.
+  path: Assets/Scripts/SpiderTank_Walk.cs
+  artifactKey: Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SpiderTank_Walk.cs using Guid(94942606dec9f7e45aa3094087d55ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6b48653b8a28c504571ab1906454e1') in 0.006009 seconds
+  Import took 0.008826 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.901 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 2.340100 ms (FindLiveObjects: 0.198400 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.036800 ms  DeleteObjects: 0.058800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.686632 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6a35c3cddc746e7501c0bd0ed6d4ce') in 0.038724 seconds
+  Import took 0.041833 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007556 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2380.
+Total: 2.723900 ms (FindLiveObjects: 0.218500 ms CreateObjectMapping: 0.040400 ms MarkObjects: 2.400900 ms  DeleteObjects: 0.062900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007606 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2383.
+Total: 2.439600 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.037100 ms MarkObjects: 2.149700 ms  DeleteObjects: 0.063000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 280.840350 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c70fd90955d56e490547eeea6bb9dc1') in 0.041050 seconds
+  Import took 0.044251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.450003 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d14e91ad72dd8ed8771cb053cc83eb8') in 0.010177 seconds
+  Import took 0.013516 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2387.
+Total: 2.491000 ms (FindLiveObjects: 0.206800 ms CreateObjectMapping: 0.047400 ms MarkObjects: 2.168600 ms  DeleteObjects: 0.066800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.891928 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '549b143e51ba91c3714450bba0ae9319') in 0.025927 seconds
+  Import took 0.029244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.483413 seconds.
+  path: Assets/Textures/Shadow.png
+  artifactKey: Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Shadow.png using Guid(b74b9cb1ca30c814dab3bcf573211f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3a483348c6e79ecb562d6dabffd0c1') in 0.031550 seconds
+  Import took 0.034728 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2391.
+Total: 2.517900 ms (FindLiveObjects: 0.221100 ms CreateObjectMapping: 0.042700 ms MarkObjects: 2.185100 ms  DeleteObjects: 0.067600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007475 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.9 MB.
+System memory in use after: 93.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2394.
+Total: 2.320100 ms (FindLiveObjects: 0.211100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.999800 ms  DeleteObjects: 0.062400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 374.899184 seconds.
+  path: Assets/Prefabs/SpiderTank 1.prefab
+  artifactKey: Guid(4f878a63493afe543a81f3772c196a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SpiderTank 1.prefab using Guid(4f878a63493afe543a81f3772c196a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba04ba3b4ba47deab5d37c008da47bc') in 0.090601 seconds
+  Import took 0.094063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.490420 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(96f72fe10c23e4e4dad5d74388d875b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(96f72fe10c23e4e4dad5d74388d875b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369abf7a9fbf50ae4d0fcd6d662f64d7') in 0.029431 seconds
+  Import took 0.032648 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007598 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1858 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 106.8 MB.
+System memory in use after: 106.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 2.484800 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.038700 ms MarkObjects: 2.177300 ms  DeleteObjects: 0.072000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
