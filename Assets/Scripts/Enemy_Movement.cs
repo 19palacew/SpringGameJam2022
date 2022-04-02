@@ -20,7 +20,10 @@ public class Enemy_Movement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         walkScript = GetComponent<SpiderTank_Walk>();
         walkSpeed = walkScript.speed;
+
+        // Makes the enemy walk in a different direction every 2 seconds
         InvokeRepeating("ChangeAngles", 2f, 2f);
+
         temp = new Quaternion();
         lookAtPlayerAngle = new Quaternion();
     }
@@ -28,8 +31,13 @@ public class Enemy_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // If the player is within a certain distance
         if (Vector3.Distance(transform.position, player.transform.position)<10)
         {
+            // The rotation is confusing here because I have to smooth the rotation but I'd need to create a new gameObject to calculate the direcion.
+            // So instead I save the current rotation and then rotate it for the quick calculation and change it back.
+            // Then using the difference I can smooth the location.
+
             walkScript.setSpeed(walkSpeed);
             // Record Current Rotation
             temp = transform.rotation;
@@ -46,6 +54,7 @@ public class Enemy_Movement : MonoBehaviour
         }
         else
         {
+            // Random Movement when no in range of player; "lookAngle" gets changed every two seconds by an Invoking method in Start()
             walkScript.setSpeed(walkSpeed/2);
             transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(0, lookAngle, 0), Time.deltaTime * lookSpeed);
             rb.velocity = transform.forward * speed/2 + new Vector3(0, rb.velocity.y, 0);

@@ -58,7 +58,7 @@ public class Player_Movement : MonoBehaviour
             state = State.InAir;
         }
 
-        //Raycast
+        //Raycast; mean't for future use, nothing implemented
 
         RaycastHit hit;
         if (Input.GetMouseButtonDown(0))
