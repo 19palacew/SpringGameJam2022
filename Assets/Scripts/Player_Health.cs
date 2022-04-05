@@ -5,8 +5,8 @@ using UnityEngine;
 public class Player_Health : MonoBehaviour
 {
     public double health;
-    public Animation death;
-    public Animation hurt;
+    //public Animation death;
+    //public Animation hurt;
     private bool isDead; // Not inherently useful right now, but could come in handy later
     private bool isHurt;
     // Start is called before the first frame update
@@ -14,8 +14,8 @@ public class Player_Health : MonoBehaviour
     {
         isDead = false;
         isHurt = false;
-        death = GetComponent<Animation>();
-        hurt = GetComponent<Animation>();
+        //death = GetComponent<Animation>();
+        //hurt = GetComponent<Animation>();
     }
 
     // Update is called once per frame
@@ -24,15 +24,15 @@ public class Player_Health : MonoBehaviour
         if(health == 0) {
             isDead = true;
             if(isDead) {
-                death.Play("DeathAnimation");
-                if(!death.IsPlaying("DeathAnimation")) {
+                //death.Play("DeathAnimation");
+                //if(!death.IsPlaying("DeathAnimation")) {
                     EndGame();
-                }
+                //}
             }
         }
         if(isHit(isHurt)) {
-            hurt.Play();
-            if(!hurt.IsPlaying("HurtAnimation"))
+            //hurt.Play();
+            //if(!hurt.IsPlaying("HurtAnimation"))
             isHurt = false;
         }
     }
