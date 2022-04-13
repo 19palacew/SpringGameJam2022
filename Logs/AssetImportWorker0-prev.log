@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19042.631; Version 2009; 64bit' Language: 'en' Physical Memory: 32682 MB
+OS: 'Windows 10 Home; OS build 19042.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 32682 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51831
+61261
 Successfully changed project path to: C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.12 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.84 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,288 +36,147 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001577 seconds.
+Registered in 0.002159 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.17 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.860 seconds
+- Completed reload, in  0.952 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004926 seconds.
+Registered in 0.005134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 48.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.380 seconds
+- Completed reload, in  1.442 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 151.9 MB.
-System memory in use after: 152.1 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3485.
-Total: 2.535200 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.018000 ms  DeleteObjects: 0.090500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Textures/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(7e65eb0136efdcf4cbb22751c6cb75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UniversalRenderPipelineAsset.asset using Guid(7e65eb0136efdcf4cbb22751c6cb75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0775ba200a986ddc1a66f92b9c26be93') in 0.051026 seconds
-  Import took 0.055677 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 77.561683 seconds.
-  path: Assets/Textures/CitySkybox.exr
-  artifactKey: Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CitySkybox.exr using Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7537eded8dfe971071261594cd587b') in 0.058723 seconds
-  Import took 0.063474 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.534153 seconds.
-  path: Assets/Textures/CitySkybox.exr
-  artifactKey: Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CitySkybox.exr using Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7718b35e6325279bfc7dfcd7bb0de5') in 0.086538 seconds
-  Import took 0.094728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.876395 seconds.
-  path: Assets/Textures/CitySkybox.exr
-  artifactKey: Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CitySkybox.exr using Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae40cc2a70defea1371015fdf85daebe') in 0.019404 seconds
-  Import took 0.024703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 30.046672 seconds.
-  path: Assets/Textures/CitySkybox.exr
-  artifactKey: Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CitySkybox.exr using Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d4597bdd98c5d709c232d07e323685d') in 0.035949 seconds
-  Import took 0.041990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.869283 seconds.
-  path: Assets/Textures/CitySkybox.exr
-  artifactKey: Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CitySkybox.exr using Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a42f1db53a5c0c7ca0645c64aa2b7') in 0.014730 seconds
-  Import took 0.019532 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006137 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.944 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.1 MB.
-System memory in use after: 145.3 MB.
+Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.8 MB.
+System memory in use after: 153.0 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3494.
-Total: 2.622700 ms (FindLiveObjects: 0.351000 ms CreateObjectMapping: 0.066400 ms MarkObjects: 2.141400 ms  DeleteObjects: 0.062600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 120.484646 seconds.
-  path: Assets/Textures/Skybox.mat
-  artifactKey: Guid(66985bbca55b3ec4fb967c56d478faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox.mat using Guid(66985bbca55b3ec4fb967c56d478faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf8cda4c7faf67be7a4c528600b525d') in 0.160919 seconds
-  Import took 0.165873 seconds .
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3486.
+Total: 2.843300 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.292700 ms  DeleteObjects: 0.093800 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 240.557408 seconds.
-  path: Assets/Textures/City.mat
-  artifactKey: Guid(b2bee38d5c6bc8947997f8114570f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/City.mat using Guid(b2bee38d5c6bc8947997f8114570f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6ef72c5519c8c7193c7e637d7ad3cd') in 0.047243 seconds
-  Import took 0.052253 seconds .
+  path: Assets/Meshes/Castle.fbx
+  artifactKey: Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Castle.fbx using Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577d9bd0bedd99e4768f6db6aba2f919') in 0.372319 seconds
+  Import took 0.377850 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.786331 seconds.
-  path: Assets/Textures/City_Albedo.png
-  artifactKey: Guid(cbba7a2728c028e4aa774f4d17483291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/City_Albedo.png using Guid(cbba7a2728c028e4aa774f4d17483291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e5cdcb90a0c78e85651c84b26f36c2') in 0.035257 seconds
-  Import took 0.040088 seconds .
+  Time since last request: 48.150748 seconds.
+  path: Assets/Meshes/Castle.fbx
+  artifactKey: Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/Castle.fbx using Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d7e47160feaaf54a989d9105947d58') in 0.031951 seconds
+  Import took 0.037019 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.466435 seconds.
-  path: Assets/Textures/City_Albedo.png
-  artifactKey: Guid(cbba7a2728c028e4aa774f4d17483291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/City_Albedo.png using Guid(cbba7a2728c028e4aa774f4d17483291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'becf3f7551fc0d09140e165fcef2c862') in 0.024449 seconds
-  Import took 0.029766 seconds .
+  Time since last request: 10.868843 seconds.
+  path: Assets/Textures/Castle_Albedo.png
+  artifactKey: Guid(f8de0b8b399fdb9449deda2962b7bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Castle_Albedo.png using Guid(f8de0b8b399fdb9449deda2962b7bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c0b129f522b78991b6dadf24b43f99') in 0.024919 seconds
+  Import took 0.029671 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.669214 seconds.
-  path: Assets/Textures/City.mat
-  artifactKey: Guid(b2bee38d5c6bc8947997f8114570f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/City.mat using Guid(b2bee38d5c6bc8947997f8114570f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882231e222c37ba92fdc00f154eff4da') in 0.027955 seconds
-  Import took 0.033611 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004796 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.005 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2899 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.7 MB.
-System memory in use after: 147.9 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3575.
-Total: 2.715800 ms (FindLiveObjects: 0.374600 ms CreateObjectMapping: 0.069500 ms MarkObjects: 2.204800 ms  DeleteObjects: 0.065900 ms)
+  Time since last request: 0.000190 seconds.
+  path: Assets/Textures/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(7e65eb0136efdcf4cbb22751c6cb75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/UniversalRenderPipelineAsset.asset using Guid(7e65eb0136efdcf4cbb22751c6cb75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96f730b808d9efaaa3d73ab6d16734') in 0.021174 seconds
+  Import took 0.025134 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1678.538686 seconds.
-  path: Assets/Textures/Skybox2.exr
-  artifactKey: Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox2.exr using Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6046b4f927b1a0857d8bf13ad92bb5c2') in 0.038348 seconds
-  Import took 0.043703 seconds .
+  Time since last request: 0.000259 seconds.
+  path: Assets/Textures/Wall_Albedo.png
+  artifactKey: Guid(b7cbccd963822ff4faf7b1b012dca145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall_Albedo.png using Guid(b7cbccd963822ff4faf7b1b012dca145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a2d96d8c2029fc645dfe7b48f37c1e') in 0.027734 seconds
+  Import took 0.032400 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.976860 seconds.
-  path: Assets/Textures/Skybox2.exr
-  artifactKey: Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox2.exr using Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf79ad2d53c440ea2f86a3d8d4c49cf') in 0.014544 seconds
-  Import took 0.019611 seconds .
+  Time since last request: 8.151269 seconds.
+  path: Assets/Textures/Castle.mat
+  artifactKey: Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Castle.mat using Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee8a989920d2a14b94b9f257df0ae51') in 0.012327 seconds
+  Import took 0.017220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.487135 seconds.
-  path: Assets/Textures/Skybox2.exr
-  artifactKey: Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox2.exr using Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed180c1934653a0c0af654731cec43c') in 0.021740 seconds
-  Import took 0.027377 seconds .
+  Time since last request: 32.172636 seconds.
+  path: Assets/Textures/Castle.mat
+  artifactKey: Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Castle.mat using Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba9527555054239621722eea5510120') in 0.012320 seconds
+  Import took 0.017269 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.446195 seconds.
-  path: Assets/Textures/Skybox2.exr
-  artifactKey: Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox2.exr using Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075fc7444d154c089cda773f7a7a234c') in 0.014658 seconds
-  Import took 0.019433 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Textures/Wall 1.mat
+  artifactKey: Guid(cb01ba9ec791a114b9940bb4601e6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall 1.mat using Guid(cb01ba9ec791a114b9940bb4601e6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73eb698ca1ec0755c85363f0d76857f') in 0.031118 seconds
+  Import took 0.035481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 173.581060 seconds.
-  path: Assets/Textures/Skybox.mat
-  artifactKey: Guid(66985bbca55b3ec4fb967c56d478faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox.mat using Guid(66985bbca55b3ec4fb967c56d478faaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00e5fbc619a6633bc16cde9c5c82cf0') in 0.114702 seconds
-  Import took 0.120112 seconds .
+  Time since last request: 23.068108 seconds.
+  path: Assets/Textures/Bridge.mat
+  artifactKey: Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bridge.mat using Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c8fec76a2b3b1947b46660d0692092') in 0.030450 seconds
+  Import took 0.036180 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 72.486849 seconds.
-  path: Assets/Textures/White.mat
-  artifactKey: Guid(e1ff66344346e964d9374f125c60c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/White.mat using Guid(e1ff66344346e964d9374f125c60c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09073b7768f78303a97972b222704aee') in 0.015313 seconds
-  Import took 0.020041 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Textures/Wall.mat
+  artifactKey: Guid(e85eb708ad8d1c04f9d45edcf81a1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Wall.mat using Guid(e85eb708ad8d1c04f9d45edcf81a1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2147aae5cd49434d9b4e03844e4ac42a') in 0.009636 seconds
+  Import took 0.014161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 146.181228 seconds.
-  path: Assets/Textures/City.mat
-  artifactKey: Guid(b2bee38d5c6bc8947997f8114570f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/City.mat using Guid(b2bee38d5c6bc8947997f8114570f516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27dd1d3815370b4b5af07aabe881d3a1') in 0.029575 seconds
-  Import took 0.036322 seconds .
+  Time since last request: 69.446519 seconds.
+  path: Assets/Textures/Room_Albedo.png
+  artifactKey: Guid(ffd6ec610ad97c64ab1a20ab73a3efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Room_Albedo.png using Guid(ffd6ec610ad97c64ab1a20ab73a3efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6c5f9a913eea7fad61d04220a5a323') in 0.011083 seconds
+  Import took 0.016304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Textures/White.mat
-  artifactKey: Guid(e1ff66344346e964d9374f125c60c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/White.mat using Guid(e1ff66344346e964d9374f125c60c286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5855c9b6f4011e3c983dca696d913bfb') in 0.014523 seconds
-  Import took 0.019391 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005265 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.036 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2899 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.9 MB.
-System memory in use after: 148.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3615.
-Total: 2.658900 ms (FindLiveObjects: 0.355200 ms CreateObjectMapping: 0.075400 ms MarkObjects: 2.161800 ms  DeleteObjects: 0.065500 ms)
+  Time since last request: 7.331052 seconds.
+  path: Assets/Textures/Bridge.mat
+  artifactKey: Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bridge.mat using Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22f5aacd8d90f8fe471142d27c6014c') in 0.013887 seconds
+  Import took 0.018735 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 327.775301 seconds.
-  path: Assets/Textures/CitySkybox.exr
-  artifactKey: Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/CitySkybox.exr using Guid(88640753e17447f4b9a9bc6f2a2a62dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5739b826bf5d169cb6e1fe1ebb99de') in 0.032655 seconds
-  Import took 0.037265 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Textures/Room.mat
+  artifactKey: Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Room.mat using Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0462fe59c14fc286684b772d3b21256a') in 0.011681 seconds
+  Import took 0.015942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 168.873883 seconds.
-  path: Assets/Textures/Skybox2.exr
-  artifactKey: Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Skybox2.exr using Guid(7ff08a8cad7c85342a12658b77d54ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f681ed6505a02dbd2ecb231a3756fd6c') in 0.013008 seconds
-  Import took 0.018848 seconds .
+  Time since last request: 94.787378 seconds.
+  path: Assets/Textures/Room.mat
+  artifactKey: Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Room.mat using Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cdb35c69f5c44ed9c9910447eaafc3') in 0.033965 seconds
+  Import took 0.039225 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004376 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2899 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.9 MB.
-System memory in use after: 148.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3618.
-Total: 3.605700 ms (FindLiveObjects: 0.522400 ms CreateObjectMapping: 0.078100 ms MarkObjects: 2.930100 ms  DeleteObjects: 0.072800 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
