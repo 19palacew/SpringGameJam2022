@@ -15,11 +15,11 @@ C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51410
+49454
 Successfully changed project path to: C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.19 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,52 +36,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002649 seconds.
+Registered in 0.002007 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 51.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 45.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.715 seconds
+- Completed reload, in  0.897 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007642 seconds.
+Registered in 0.005223 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.38 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 47.99 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.567 seconds
+- Completed reload, in  1.385 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 153.1 MB.
+System memory in use before: 153.2 MB.
 System memory in use after: 153.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3486.
-Total: 3.210800 ms (FindLiveObjects: 0.402000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.608300 ms  DeleteObjects: 0.112500 ms)
+Total: 2.516600 ms (FindLiveObjects: 0.329200 ms CreateObjectMapping: 0.087400 ms MarkObjects: 2.016900 ms  DeleteObjects: 0.082000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Textures/Castle.mat
-  artifactKey: Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Castle.mat using Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6585693e3ffcc7504a7f7099da21c655') in 0.227332 seconds
-  Import took 0.232633 seconds .
+  path: Assets/ORIGINALFILES/Arms.blend
+  artifactKey: Guid(702ec939fd1cd034db2336ba1091487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ORIGINALFILES/Arms.blend using Guid(702ec939fd1cd034db2336ba1091487b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97bea0b1ee2941ec1b50529f82d0a6aa') in 0.257285 seconds
+  Import took 0.262012 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Textures/Room.mat
-  artifactKey: Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Room.mat using Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c211ece60677c57d2dad0df17610fc9f') in 0.042928 seconds
-  Import took 0.047081 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/ORIGINALFILES/Level.blend
+  artifactKey: Guid(7e6003322c0096d47af61c63dc4b5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ORIGINALFILES/Level.blend using Guid(7e6003322c0096d47af61c63dc4b5fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '108119d0b61a126999fa8fb449e5db2f') in 0.120808 seconds
+  Import took 0.124849 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/ORIGINALFILES/SpiderTank.blend
+  artifactKey: Guid(bf2f9f80948afad4da371f0adff02f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ORIGINALFILES/SpiderTank.blend using Guid(bf2f9f80948afad4da371f0adff02f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b04477b812bb6c3035295dba04c39f7') in 0.043454 seconds
+  Import took 0.047408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/ORIGINALFILES/Skybox.blend
+  artifactKey: Guid(2f1d960871a249c48b252a487679c702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ORIGINALFILES/Skybox.blend using Guid(2f1d960871a249c48b252a487679c702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77536e24253434027ed564262bf47120') in 0.107662 seconds
+  Import took 0.111894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/ORIGINALFILES/TestRoom2.blend
+  artifactKey: Guid(7bf5c823f48e2b64f9b74cc7babfee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ORIGINALFILES/TestRoom2.blend using Guid(7bf5c823f48e2b64f9b74cc7babfee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96768df60e56ca41465aa5112041157f') in 0.153963 seconds
+  Import took 0.158508 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

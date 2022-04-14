@@ -15,11 +15,11 @@ C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61261
+51410
 Successfully changed project path to: C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 C:/Users/Winston/Desktop/Unity Games/SpringGameJam2022
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 47.84 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -36,147 +36,52 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002159 seconds.
+Registered in 0.002649 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 51.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  1.715 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005134 seconds.
+Registered in 0.007642 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.53 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.38 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.442 seconds
+- Completed reload, in  1.567 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3036 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 152.8 MB.
-System memory in use after: 153.0 MB.
+System memory in use before: 153.1 MB.
+System memory in use after: 153.3 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3486.
-Total: 2.843300 ms (FindLiveObjects: 0.385500 ms CreateObjectMapping: 0.070000 ms MarkObjects: 2.292700 ms  DeleteObjects: 0.093800 ms)
+Total: 3.210800 ms (FindLiveObjects: 0.402000 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.608300 ms  DeleteObjects: 0.112500 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Meshes/Castle.fbx
-  artifactKey: Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Castle.fbx using Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577d9bd0bedd99e4768f6db6aba2f919') in 0.372319 seconds
-  Import took 0.377850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.150748 seconds.
-  path: Assets/Meshes/Castle.fbx
-  artifactKey: Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Castle.fbx using Guid(20aea084e3b72aa42a90f8ce5b646086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d7e47160feaaf54a989d9105947d58') in 0.031951 seconds
-  Import took 0.037019 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.868843 seconds.
-  path: Assets/Textures/Castle_Albedo.png
-  artifactKey: Guid(f8de0b8b399fdb9449deda2962b7bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Castle_Albedo.png using Guid(f8de0b8b399fdb9449deda2962b7bff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c0b129f522b78991b6dadf24b43f99') in 0.024919 seconds
-  Import took 0.029671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Textures/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(7e65eb0136efdcf4cbb22751c6cb75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/UniversalRenderPipelineAsset.asset using Guid(7e65eb0136efdcf4cbb22751c6cb75c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c96f730b808d9efaaa3d73ab6d16734') in 0.021174 seconds
-  Import took 0.025134 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Textures/Wall_Albedo.png
-  artifactKey: Guid(b7cbccd963822ff4faf7b1b012dca145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wall_Albedo.png using Guid(b7cbccd963822ff4faf7b1b012dca145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a2d96d8c2029fc645dfe7b48f37c1e') in 0.027734 seconds
-  Import took 0.032400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.151269 seconds.
   path: Assets/Textures/Castle.mat
   artifactKey: Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Castle.mat using Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee8a989920d2a14b94b9f257df0ae51') in 0.012327 seconds
-  Import took 0.017220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.172636 seconds.
-  path: Assets/Textures/Castle.mat
-  artifactKey: Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Castle.mat using Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba9527555054239621722eea5510120') in 0.012320 seconds
-  Import took 0.017269 seconds .
+Start importing Assets/Textures/Castle.mat using Guid(fb25c6e748a73ea47a57aaba13612247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6585693e3ffcc7504a7f7099da21c655') in 0.227332 seconds
+  Import took 0.232633 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000202 seconds.
-  path: Assets/Textures/Wall 1.mat
-  artifactKey: Guid(cb01ba9ec791a114b9940bb4601e6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wall 1.mat using Guid(cb01ba9ec791a114b9940bb4601e6fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73eb698ca1ec0755c85363f0d76857f') in 0.031118 seconds
-  Import took 0.035481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.068108 seconds.
-  path: Assets/Textures/Bridge.mat
-  artifactKey: Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Bridge.mat using Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c8fec76a2b3b1947b46660d0692092') in 0.030450 seconds
-  Import took 0.036180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Textures/Wall.mat
-  artifactKey: Guid(e85eb708ad8d1c04f9d45edcf81a1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Wall.mat using Guid(e85eb708ad8d1c04f9d45edcf81a1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2147aae5cd49434d9b4e03844e4ac42a') in 0.009636 seconds
-  Import took 0.014161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 69.446519 seconds.
-  path: Assets/Textures/Room_Albedo.png
-  artifactKey: Guid(ffd6ec610ad97c64ab1a20ab73a3efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Room_Albedo.png using Guid(ffd6ec610ad97c64ab1a20ab73a3efd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b6c5f9a913eea7fad61d04220a5a323') in 0.011083 seconds
-  Import took 0.016304 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.331052 seconds.
-  path: Assets/Textures/Bridge.mat
-  artifactKey: Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Bridge.mat using Guid(7531b2f8dad4fda4ea8f102c9f9769d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22f5aacd8d90f8fe471142d27c6014c') in 0.013887 seconds
-  Import took 0.018735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
   path: Assets/Textures/Room.mat
   artifactKey: Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Room.mat using Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0462fe59c14fc286684b772d3b21256a') in 0.011681 seconds
-  Import took 0.015942 seconds .
+Start importing Assets/Textures/Room.mat using Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c211ece60677c57d2dad0df17610fc9f') in 0.042928 seconds
+  Import took 0.047081 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 94.787378 seconds.
-  path: Assets/Textures/Room.mat
-  artifactKey: Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Room.mat using Guid(46f5efa2d0de1f1438bfaf11f4dfe272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cdb35c69f5c44ed9c9910447eaafc3') in 0.033965 seconds
-  Import took 0.039225 seconds .
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
