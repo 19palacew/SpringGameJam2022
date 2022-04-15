@@ -18,6 +18,7 @@ public class Player_Movement : MonoBehaviour
     private State state;
     private KeyCode dashButton;
     private bool canDash;
+    private Animator ani;
 
     enum State
     {
@@ -34,6 +35,7 @@ public class Player_Movement : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         dashButton = KeyCode.LeftShift;
         canDash = true;
+        ani = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -110,6 +112,14 @@ public class Player_Movement : MonoBehaviour
         Vector3 movementVec = Vector3.Lerp(rb.velocity, (Input.GetAxis("Vertical") * forward + Input.GetAxis("Horizontal") * right) * playerSpeed, runTransition * Time.deltaTime);
         movementVec.y = rb.velocity.y;
         rb.velocity = movementVec;
+        if (Input.GetKey(KeyCode.W))
+        {
+            ani.SetBool("IsRunning", true);
+        }
+        else
+        {
+            ani.SetBool("IsRunning", false);
+        }
         if (Input.GetKeyDown("space"))
         {
             rb.AddForce(jumpForce * Vector3.up, ForceMode.Impulse);

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player_Health : MonoBehaviour
 {
@@ -8,14 +9,23 @@ public class Player_Health : MonoBehaviour
     //public Animation death;
     //public Animation hurt;
     private bool isDead; // Not inherently useful right now, but could come in handy later
-    private bool isHurt;
+    //private bool isHurt;
+
+    private Rigidbody rb;
+    public Text HealthText;
+
+    public Text loseText;
+
+    
     // Start is called before the first frame update
     void Start()
     {
         isDead = false;
-        isHurt = false;
+        //isHurt = false;
+        rb = GetComponent<Rigidbody>();
         //death = GetComponent<Animation>();
         //hurt = GetComponent<Animation>();
+        SetCountText();
     }
 
     // Update is called once per frame
@@ -30,20 +40,28 @@ public class Player_Health : MonoBehaviour
                 //}
             }
         }
-        if(isHit(isHurt)) {
-            //hurt.Play();
-            //if(!hurt.IsPlaying("HurtAnimation"))
-            isHurt = false;
-        }
+        // if(isHurt) {
+        //     //hurt.Play();
+        //     //if(!hurt.IsPlaying("HurtAnimation"))
+        //     isHurt = false;
+        // }
     }
 
-    //changed the enemy attack script to use method rather than raw damage
-    bool isHit(bool isHurt) {
-        health -= 10;
-        isHurt = true;
-        return isHurt;
-    }
     void EndGame() {
         // stuff to end the game
     }
+    void OnTriggerExit(Collider other) {
+        if(other.gameObject.CompareTag("Enemy")) {
+            if(health >= 10)
+            health -= 10;
+            SetCountText();
+        }
+    }
+    void SetCountText() {
+        HealthText.text = "Health: " + health.ToString();
+        if (health <= 0) {
+            loseText.text = "You lose!";
+        }
+    }
+    
 }
