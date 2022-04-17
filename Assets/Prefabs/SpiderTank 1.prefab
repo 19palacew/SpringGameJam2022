@@ -970,6 +970,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0841554b5246a034e94726f9898fd572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  midRangeAnimation: {fileID: 0}
+  shortRangeAnimation: {fileID: 0}
+  damage: 0
+  attackCoolDown: 0
+  attackDuration: 0
 --- !u!1 &4159935421754956852
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,7 +1302,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e85eb708ad8d1c04f9d45edcf81a1570, type: 2}
+  - {fileID: 2100000, guid: f6a1af061d597fe48a05f77f2085f6b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
