@@ -33,7 +33,7 @@ public class Boss : MonoBehaviour
         leftHand = transform.GetChild(6).GetChild(1).GetChild(0).gameObject;
         rightDefault = rightHand.transform.position;
         leftDefault = leftHand.transform.position;
-        attacking = false;
+        attacking = true;
         activeHand = rightHand;
         activeHandDefault = rightDefault;
         attackState = AttackState.Default;
@@ -101,6 +101,13 @@ public class Boss : MonoBehaviour
     private void DoneSlam()
     {
         attackState = AttackState.Default;
+        attacking = false;
+    }
+
+    public void StartFight()
+    {
+        rightDefault = rightHand.transform.position;
+        leftDefault = leftHand.transform.position;
         attacking = false;
     }
 }
