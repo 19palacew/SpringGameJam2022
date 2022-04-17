@@ -59,9 +59,9 @@ public class Player_Health : MonoBehaviour
     }
     void SetCountText() {
         HealthText.text = "Health: " + health.ToString();
-        if (health <= 0) {
-            loseText.text = "You lose!";
-        }
+        // if (health <= 0) {
+        //     loseText.text = "You lose!";
+        // }
     }
     
 }
