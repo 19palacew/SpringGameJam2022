@@ -19,7 +19,7 @@ public class BossTrigger : MonoBehaviour
     {
         if (start)
         {
-            boss.transform.position = Vector3.Lerp(boss.transform.position, new Vector3(-83, -32.73f, -440.8f), .005f);
+            boss.transform.position = Vector3.Lerp(boss.transform.position, new Vector3(-83, -32.73f, -440.8f), .005f * Time.deltaTime * 400);
         }
         if (Vector3.Distance(boss.transform.position, new Vector3(-83, -32.73f, -440.8f)) < 1f && !done)
         {

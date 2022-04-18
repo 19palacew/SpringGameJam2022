@@ -5,6 +5,7 @@ using UnityEngine;
 public class Boss : MonoBehaviour
 {
     public float rate;
+    private float frameRateMakeUp;
     private GameObject player;
     private GameObject head;
     private GameObject body;
@@ -37,6 +38,7 @@ public class Boss : MonoBehaviour
         activeHand = rightHand;
         activeHandDefault = rightDefault;
         attackState = AttackState.Default;
+        frameRateMakeUp = 400;
     }
 
     // Update is called once per frame
@@ -64,20 +66,20 @@ public class Boss : MonoBehaviour
         {
             case AttackState.Default:
                 {
-                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, activeHandDefault, rate);
-                    activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3()), rate);
+                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, activeHandDefault, rate * Time.deltaTime * frameRateMakeUp);
+                    activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3()), rate * Time.deltaTime * frameRateMakeUp);
                     break;
                 }
             case AttackState.Raise:
                 {
-                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, activeHandDefault + new Vector3(0,79,0), rate);
-                    activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3(180,0,0)), rate);
+                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, activeHandDefault + new Vector3(0,79,0), rate * Time.deltaTime * frameRateMakeUp);
+                    activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3(180,0,0)), rate * Time.deltaTime * frameRateMakeUp);
                     break;
                 }
             case AttackState.Slam:
                 {
-                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, player.transform.position, rate*2);
-                    activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3(90, 0, 0)), rate);
+                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, player.transform.position, rate*2 * Time.deltaTime * frameRateMakeUp);
+                    activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3(90, 0, 0)), rate * Time.deltaTime * frameRateMakeUp);
                     break;
                 }
             default: break;

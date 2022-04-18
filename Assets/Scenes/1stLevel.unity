@@ -485,6 +485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rate: 0.01
+  frameRateMakeUp: 400
 --- !u!1001 &62178617
 PrefabInstance:
   m_ObjectHideFlags: 0
