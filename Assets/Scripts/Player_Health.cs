@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player_Health : MonoBehaviour
 {
@@ -13,7 +14,7 @@ public class Player_Health : MonoBehaviour
 
     private Rigidbody rb;
     public Text HealthText;
-
+    public string LevelName;
     public Text loseText;
 
     
@@ -52,8 +53,10 @@ public class Player_Health : MonoBehaviour
     }
     void OnTriggerExit(Collider other) {
         if(other.gameObject.CompareTag("Enemy")) {
-            if(health >= 10)
-            health -= 10;
+            if (health >= 10)
+                health -= 10;
+            else
+                SceneManager.LoadScene(LevelName);
             SetCountText();
         }
     }

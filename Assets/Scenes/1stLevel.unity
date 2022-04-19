@@ -1194,6 +1194,11 @@ VideoPlayer:
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19c4494e419d3c949a21b3d1a7f513ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LevelName: Died
 --- !u!1001 &607313808
 PrefabInstance:
   m_ObjectHideFlags: 0
