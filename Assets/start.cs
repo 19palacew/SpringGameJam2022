@@ -11,4 +11,9 @@ public class start : MonoBehaviour
     {
         SceneManager.LoadScene(LevelName);
     }
+
+    public void LoadStart()
+    {
+        SceneManager.LoadScene("Title");
+    }
 }

@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
     public float rate;
+    public GameObject canvas;
+    public GameObject thanks;
     private float frameRateMakeUp;
     private GameObject player;
     private GameObject head;
@@ -111,5 +115,32 @@ public class Boss : MonoBehaviour
         rightDefault = rightHand.transform.position;
         leftDefault = leftHand.transform.position;
         attacking = false;
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            player.transform.GetChild(0).GetComponent<VideoPlayer>().enabled = true;
+            player.transform.GetChild(0).GetComponent<VideoPlayer>().Play();
+            player.transform.GetChild(0).transform.GetChild(1).GetComponent<Camera>().enabled = false;
+            player.transform.position = new Vector3(0,1000,0);
+            canvas.GetComponent<Canvas>().enabled = false;
+            Invoke("EndGame", 10f);
+        }
+    }
+
+    private void EndGame()
+    {
+        canvas.transform.GetChild(0).GetComponent<Text>().enabled = false;
+        canvas.GetComponent<Canvas>().enabled = true;
+        Instantiate(thanks, canvas.transform);
+        Invoke("FreeMouse", 2f);
+    }
+
+    private void FreeMouse()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }

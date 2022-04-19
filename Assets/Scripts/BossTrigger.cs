@@ -7,11 +7,13 @@ public class BossTrigger : MonoBehaviour
     private GameObject boss;
     private bool start;
     private bool done;
+    private bool hasSounded;
     // Start is called before the first frame update
     void Start()
     {
         boss = GameObject.FindGameObjectWithTag("GiantRobot");
         done = false;
+        hasSounded = false;
     }
 
     // Update is called once per frame
@@ -19,7 +21,7 @@ public class BossTrigger : MonoBehaviour
     {
         if (start)
         {
-            boss.transform.position = Vector3.Lerp(boss.transform.position, new Vector3(-83, -32.73f, -440.8f), .005f * Time.deltaTime * 400);
+            boss.transform.position = Vector3.Lerp(boss.transform.position, new Vector3(-83, -32.73f, -440.8f), .005f * Time.deltaTime * 200);
         }
         if (Vector3.Distance(boss.transform.position, new Vector3(-83, -32.73f, -440.8f)) < 1f && !done)
         {
@@ -34,6 +36,11 @@ public class BossTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             start = true;
+        }
+        if (!hasSounded)
+        {
+            hasSounded = true;
+            boss.GetComponent<AudioSource>().Play();
         }
     }
 }
