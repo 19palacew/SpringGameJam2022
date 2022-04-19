@@ -41,6 +41,11 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (transform.position.y < -22)
+        {
+            transform.position = new Vector3(0,2.69f,12.43f);
+        }
+
         //Movement Helper
         Vector3 cameraVector = Camera.main.transform.rotation.eulerAngles;
         cameraVector.x = cameraVector.z = 0;
