@@ -21,6 +21,7 @@ public class Boss : MonoBehaviour
     private Vector3 activeHandDefault;
     private AttackState attackState;
     private bool attacking;
+    private Vector3 tempPlayerLoc;
 
     private enum AttackState{
         Default,
@@ -39,10 +40,11 @@ public class Boss : MonoBehaviour
         rightDefault = rightHand.transform.position;
         leftDefault = leftHand.transform.position;
         attacking = true;
-        activeHand = rightHand;
         activeHandDefault = rightDefault;
+        activeHand = new GameObject();
         attackState = AttackState.Default;
         frameRateMakeUp = 400;
+        tempPlayerLoc = player.transform.position;
     }
 
     // Update is called once per frame
@@ -78,11 +80,12 @@ public class Boss : MonoBehaviour
                 {
                     activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, activeHandDefault + new Vector3(0,79,0), rate * Time.deltaTime * frameRateMakeUp);
                     activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3(180,0,0)), rate * Time.deltaTime * frameRateMakeUp);
+                    tempPlayerLoc = player.transform.position;
                     break;
                 }
             case AttackState.Slam:
                 {
-                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, player.transform.position, rate*2 * Time.deltaTime * frameRateMakeUp);
+                    activeHand.transform.position = Vector3.Lerp(activeHand.transform.position, tempPlayerLoc, rate*2 * Time.deltaTime * frameRateMakeUp);
                     activeHand.transform.localRotation = Quaternion.Lerp(activeHand.transform.localRotation, Quaternion.Euler(new Vector3(90, 0, 0)), rate * Time.deltaTime * frameRateMakeUp);
                     break;
                 }
@@ -112,6 +115,7 @@ public class Boss : MonoBehaviour
 
     public void StartFight()
     {
+        activeHand = rightHand;
         rightDefault = rightHand.transform.position;
         leftDefault = leftHand.transform.position;
         attacking = false;
